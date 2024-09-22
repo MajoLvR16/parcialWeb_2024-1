@@ -1,0 +1,206 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h1, h2 {
+    margin: 0;
+    color: #333;
+  }
+  
+  /* Contenedores de login y notas */
+  .container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f7f7f7;
+  }
+  
+  td {
+    font-size: 14px;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+
+  /* Login */
+.login-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .form-container {
+    padding: 20px;
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .form-container input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  .form-container button {
+    width: 215px;
+    height: 32px;
+    background-color: #D31024;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 0 0px 0px 20px;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #B00E1F;
+  }
+  
+  /* Mensaje de error */
+  .error-message {
+    color: red;
+    font-size: 14px;
+    display: none; /* Oculto por defecto */
+    margin-bottom: 10px;
+  }
+
+  /* Notas */
+.notas-container {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  #codigo-nombre {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  #promedio-ponderado {
+    font-weight: bold;
+    color: #D31024;
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #f7f7f7;
+  }
+  
+  td {
+    font-size: 14px;
+  }
+  
+  /* Botón de cerrar sesión */
+  #logout {
+    background-color: #D31024;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  #logout:hover {
+    background-color: #B00E1F;
+  }
+
+  /* Diseño responsivo */
+@media (max-width: 600px) {
+    .container {
+      padding: 20px;
+    }
+    
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    #promedio-ponderado {
+      margin-top: 10px;
+    }
+    
+    .form-container button, 
+    #logout {
+      width: 100%;
+      border-radius: 4px;
+    }
+  }
+  
+  
+
+  
